@@ -1,0 +1,959 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Playfair+Display:ital,wght@0,400..900;1,400..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto:ital,wght@0,100..900;1,100..900&family=Urbanist:ital,wght@0,100..900;1,100..900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.sectionOne {
+    width: 100%;
+    height: 78.5vh;
+    background-image: url("img/firstScBg");
+    background-position: 100% 60%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.scOneMainDiv {
+    width: 80%;
+    height: 659px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* flex-wrap: wrap; */
+
+}
+
+.scOneImg {
+    width: 490px;
+    height: 579px;
+}
+
+.scOneImg img {
+    width: 490px;
+    height: 579px;
+    object-fit: cover;
+
+}
+
+.scOneText {
+    width: 525px;
+    height: 659px;
+    display: flex;
+    flex-direction: column;
+    /* justify-content: center; */
+    align-items: start;
+    gap: 30px;
+    padding-top: 90px;
+}
+
+.scOneText h1 {
+    font-size: 72px;
+    font-family: Roboto, sans-serif;
+    color: white;
+    line-height: 1.1;
+}
+
+.scOneText p {
+    font-size: 20px;
+    font-family: "Open Sans", sans-serif;
+    color: white;
+}
+
+.scOneText button {
+    height: 56.6px;
+    width: 218.78px;
+    font-weight: 700;
+    border-radius: 50px;
+    background-color: #f1c50e;
+    font-family: "Open Sans", sans-serif;
+    color: white;
+    border: none;
+}
+
+.sectionTwo {
+    width: 100%;
+    height: 100vh;
+    background-color: #16ba6a;
+    display: flex;
+    justify-content: start;
+    flex-direction: column;
+    align-items: start;
+    gap: 40px;
+    padding-left: 60px;
+}
+
+.sectionTwo h5 {
+    font-size: 20px;
+    font-family: Roboto, sans-serif;
+    line-height: 1.2;
+    color: white;
+    padding-top: 50px;
+}
+
+.sectionTwo h2 {
+    font-size: 48px;
+    font-family: Roboto, sans-serif;
+    width: 684px;
+    color: white;
+}
+
+.scTwoMainDiv {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    flex-wrap: wrap;
+}
+
+.scTwoimg {
+    width: 532px;
+    height: 427px;
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    gap: 20px;
+}
+
+.scTwoimg h3 {
+    font-size: 30px;
+    font-family: Roboto, sans-serif;
+    color: white;
+}
+
+.scTwoText {
+    width: 608px;
+    height: 427px;
+}
+
+.scTwoimg .scTwoCircleDiv {
+    width: 309px;
+    height: 309px;
+    border-radius: 50%;
+
+}
+
+.scTwoimg .scTwoCircleDiv img {
+    width: 309px;
+    height: 309px;
+    border-radius: 50%;
+    object-fit: cover;
+}
+
+.scTwoText ul {
+    line-height: 2.2;
+    padding-left: 40px;
+}
+
+.scTwoText li {
+    font-size: 30px;
+    font-family: Roboto, sans-serif;
+    color: white;
+}
+
+.sectionThree {
+    width: 100%;
+    height: 70vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: start;
+    padding: 50px;
+    gap: 30px;
+}
+
+
+.sectionThree h5 {
+    font-size: 20px;
+    font-family: Roboto, sans-serif;
+}
+
+.sectionThree h2 {
+    font-size: 48px;
+    font-family: Roboto, sans-serif;
+    color: #16ba6a;
+}
+
+.sectionThree p {
+    font-size: 16px;
+    font-family: "Open Sans", sans-serif;
+}
+
+.scThreeMainDiv {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    flex-wrap: wrap;
+}
+
+.scThreeCards {
+    width: 373.3px;
+    height: 189px;
+    background-color: #f2f2f2;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 15px;
+}
+
+.scThreeCards .iconCheckDiv {
+    width: 64px;
+    height: 64px;
+    border-radius: 50%;
+    background-color: #f1c50e;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.scThreeCards .iconCheckDiv i {
+    font-size: 26px;
+}
+
+.textDiv {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+
+.checkTxt {
+    width: 271.33px;
+}
+
+.sectionFour {
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: start;
+    flex-wrap: wrap;
+}
+
+.scFourText {
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+}
+
+.scFourText h4 {
+    font-size: 20px;
+    font-family: Roboto, sans-serif;
+}
+
+.scFourText h2 {
+    font-size: 40px;
+    font-family: Roboto, sans-serif;
+    color: #16ba6a;
+}
+
+.scFourText h3 {
+    font-size: 20px;
+    font-family: Roboto, sans-serif;
+}
+
+.scFourImg {
+    width: 570 px;
+    height: 511px;
+}
+
+.scFourImg img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.sectionFive {
+    height: 150vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.cardDivOne {
+    height: 447px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+    flex-wrap: wrap;
+}
+
+.cardDivTwo {
+    height: 447px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+    flex-wrap: wrap;
+
+}
+
+.cardScFive {
+    width: 359.99px;
+    height: 447px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 50px;
+}
+
+.cardMainDiv {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 40px;
+}
+
+
+.cardMainDiv img {
+    width: 359.99px;
+    height: 222px;
+    object-fit: cover;
+}
+
+.cardsTxtDiv h5 {
+    font-size: 20px;
+    font-family: Montserrat, san-serif;
+}
+
+.cardsTxtDiv p {
+    font-size: 16px;
+    font-family: "Open Sans", sans-serif;
+    width: 299.99px;
+}
+
+.cardsTxtDiv button {
+    width: 190.91px;
+    height: 51.6px;
+    text-transform: uppercase;
+    font-weight: 700;
+    font-size: 16px;
+    font-family: "Open Sans", sans-serif;
+    background-color: #f1c50e;
+    color: white;
+    border: none;
+    border-radius: 50px;
+}
+
+.cardsTxtDiv {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    gap: 20px;
+    /* padding-left: 30px; */
+}
+
+.sectionSix {
+    height: 100vh;
+    background-color: #16ba6a;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+}
+
+.sectionSix h5 {
+    font-size: 20px;
+    font-family: Roboto, sans-serif;
+    color: white;
+}
+
+.sectionSix h2 {
+    font-size: 48px;
+    font-family: Roboto, sans-serif;
+    color: white;
+}
+
+.sectionSix p {
+    font-size: 16px;
+    width: 582px;
+    font-family: "Open Sans", sans-serif;
+    text-align: center;
+    color: white;
+}
+
+.scSixMainDiv {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.scSixMainDiv .scSixCards {
+    width: 277.5px;
+    height: 338px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+}
+
+.scSixCards .cardsImgDiv {
+    height: 178px;
+    width: 178px;
+    border-radius: 50%;
+
+}
+
+.scSixCards .cardsImgDiv img {
+    height: 100%;
+    width: 100%;
+    border-radius: 50%;
+    object-fit: cover;
+}
+
+.scSixCards h5 {
+    font-size: 20px;
+    font-family: Roboto, sans-serif;
+}
+
+.scSixCards p {
+    font-size: 16px;
+    font-family: "Open Sans", sans-serif;
+    width: 257.5px;
+}
+
+.sectionSeven {
+    height: 362px;
+    display: flex;
+    justify-content: center;
+    align-items: start;
+    flex-wrap: wrap;
+}
+
+.scSevenCards {
+    width: 285px;
+    height: 292px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    gap: 40px;
+}
+
+.scSevenIcon {
+    width: 64px;
+    height: 64px;
+    background-color: #f1c50e;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.scSevenIcon i {
+    font-size: 34px;
+}
+
+.scSevenCards h4 {
+    font-size: 24px;
+    font-family: Roboto, sans-serif;
+}
+
+.scSevenCards a {
+    font-size: 16px;
+    font-family: "Open Sans", sans-serif;
+    color: #000000;
+}
+
+.scSevenCards img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.sectionEight {
+    height: 120vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 80px;
+    flex-wrap: wrap;
+}
+
+.scEightCardOne {
+    width: 570px;
+    height: 834px;
+    display: flex;
+    flex-direction: column;
+    gap: 50px;
+}
+
+.scEightCardTwo {
+    width: 570px;
+    height: 834px;
+    display: flex;
+    justify-content: center;
+    align-items: start;
+    flex-direction: column;
+    gap: 80px;
+}
+
+.scEightCardOne .imgDivSc8 {
+    width: 226px;
+    height: 226px;
+    border-radius: 50%;
+}
+
+.scEightCardOne .imgDivSc8 img {
+    width: 226px;
+    height: 226px;
+    border-radius: 50%;
+    object-fit: cover;
+}
+
+.scEightCardOne h2 {
+    width: 470px;
+    font-size: 48px;
+    font-family: Roboto, sans-serif;
+    color: #16ba6a;
+}
+
+.scEightCardOne p {
+    font-size: 16px;
+    font-family: "Open Sans", sans-serif;
+    width: 470px;
+    line-height: 2;
+}
+
+.scEightCardOne button {
+    width: 190.91px;
+    height: 51.6px;
+    text-transform: uppercase;
+    font-weight: 700;
+    font-size: 16px;
+    font-family: "Open Sans", sans-serif;
+    background-color: #f1c50e;
+    color: white;
+    border: none;
+    border-radius: 50px;
+}
+
+.scEightCardTwo h3 {
+    font-family: "Open Sans", sans-serif;
+    font-size: 16px;
+    color: #14a75f;
+
+}
+
+.scEightCardTwo .txtDivv {
+    width: 510px;
+    height: 279.2px;
+    background-color: #a8f8d1;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: start;
+    gap: 20px;
+    padding-left: 30px;
+}
+
+.txtDivv p {
+    font-size: 16px;
+    font-family: "Open Sans", sans-serif;
+    font-weight: 700;
+    line-height: 1.6;
+    width: 450px;
+}
+
+.txtDivv li {
+    font-size: 16px;
+    font-family: "Open Sans", sans-serif;
+
+}
+
+
+ul {
+    list-style: none;
+    padding-left: 0;
+    line-height: 1.6;
+}
+
+li::before {
+    content: "-";
+    margin-right: 8px;
+    color: #333;
+}
+
+.sectionNine {
+    height: 578px;
+    background-image: url("img/footer.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.scNineText {
+    width: 600px;
+    height: 257px;
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+}
+
+.scNineText h3 {
+    font-size: 48px;
+    font-family: Roboto, sans-serif;
+    color: #16ba6a;
+}
+
+.scNineText h2 {
+    font-size: 2.25rem;
+    width: 334px;
+    text-align: center;
+}
+
+@media(max-width:768px) {
+    .scOneMainDiv {
+        flex-direction: column-reverse;
+        gap: 30px;
+    }
+
+    .scOneImg img {
+        width: 243px;
+        height: 288px;
+        object-fit: cover;
+    }
+
+    .sectionOne {
+        width: 100%;
+        height: fit-content;
+        background-image: url(img/firstScBg);
+        background-position: 100% 60%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .scOneText h1 {
+        font-size: 36px;
+        font-family: Roboto, sans-serif;
+        color: white;
+        line-height: 1.1;
+    }
+
+    .scOneText p {
+        font-size: 15px;
+        font-family: "Open Sans", sans-serif;
+        color: white;
+    }
+
+    .scOneText {
+        width: fit-content;
+        height: 659px;
+        display: flex;
+        flex-direction: column;
+        /* justify-content: center; */
+        align-items: start;
+        gap: 30px;
+        padding-top: 90px;
+    }
+
+    .scOneImg {
+        width: fit-content;
+        height: 579px;
+    }
+
+    .sectionTwo {
+        width: 100%;
+        height: fit-content;
+        background-color: #16ba6a;
+        display: flex;
+        justify-content: start;
+        flex-direction: column;
+        align-items: start;
+        gap: 21px;
+        padding-left: 14px;
+    }
+
+    .sectionTwo h2 {
+        font-size: 28px;
+        font-family: Roboto, sans-serif;
+        width: fit-content;
+        color: white;
+    }
+
+    .scTwoText {
+        width: fit-content;
+        height: fit-content;
+    }
+
+    .scTwoimg {
+        width: fit-content;
+        height: 427px;
+        display: flex;
+        flex-direction: column;
+        align-items: start;
+        gap: 48px;
+    }
+
+    .scTwoimg h3 {
+        font-size: 27px;
+        font-family: Roboto, sans-serif;
+        color: white;
+        transform: translate(-25px, 0px);
+    }
+
+    .scTwoText li {
+        font-size: 19px;
+        font-family: Roboto, sans-serif;
+        color: white;
+    }
+
+    .scTwoText ul {
+        padding: 0;
+    }
+
+    .sectionThree {
+        width: 100%;
+        height: fit-content;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: start;
+        padding: 10px;
+        gap: 29px;
+    }
+
+    .sectionThree h2 {
+        font-size: 30px;
+        font-family: Roboto, sans-serif;
+        color: #16ba6a;
+    }
+
+    .sectionThree h5 {
+        font-size: 17px;
+        font-family: Roboto, sans-serif;
+    }
+
+    .scThreeCards {
+        width: fit-content;
+        height: 189px;
+        background-color: #f2f2f2;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        gap: 15px;
+    }
+
+    .sectionThree p {
+        font-size: 13px;
+        font-family: "Open Sans", sans-serif;
+    }
+
+    .scFourText h2 {
+        font-size: 26px;
+        font-family: Roboto, sans-serif;
+        color: #16ba6a;
+    }
+
+    .scFourImg img {
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+    }
+
+    .scFourImg {
+        width: 346px;
+        height: 276px;
+    }
+
+    .sectionFour {
+        height: fit-content;
+        display: flex;
+        justify-content: center;
+        align-items: start;
+        flex-wrap: wrap;
+    }
+
+    .sectionFive {
+        height: fit-content;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        padding-top: 70px;
+    }
+
+    .cardScFive {
+        width: 359.99px;
+        height: fit-content;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        gap: 50px;
+    }
+
+    .cardDivOne {
+        height: fit-content;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        gap: 30px;
+        flex-wrap: wrap;
+    }
+
+    .cardDivTwo {
+        height: fit-content;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        gap: 30px;
+        flex-wrap: wrap;
+    }
+
+    .sectionSix {
+        height: fit-content;
+        background-color: #16ba6a;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        gap: 30px;
+    }
+
+    .sectionSix p {
+        font-size: 12px;
+        width: fit-content;
+        font-family: "Open Sans", sans-serif;
+        text-align: center;
+        color: white;
+    }
+
+    .sectionSix h2 {
+        font-size: 40px;
+        font-family: Roboto, sans-serif;
+        color: white;
+    }
+
+    .sectionSeven {
+        height: fit-content;
+        display: flex;
+        justify-content: center;
+        align-items: start;
+        flex-wrap: wrap;
+    }
+
+    .sectionEight {
+        height: fit-content;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        gap: 8px;
+        flex-wrap: wrap;
+        padding-top: 50px;
+    }
+
+    .scEightCardOne {
+        width: 570px;
+        height: fit-content;
+        display: flex;
+        flex-direction: column;
+        gap: 50px;
+    }
+
+    .scEightCardTwo {
+        width: 570px;
+        height: fit-content;
+        display: flex;
+        justify-content: center;
+        align-items: start;
+        flex-direction: column;
+        gap: 46px;
+        padding: 11px;
+    }
+
+    .scEightCardOne h2 {
+        width: fit-content;
+        font-size: 36px;
+        font-family: Roboto, sans-serif;
+        color: #16ba6a;
+        text-align: center;
+    }
+
+    .scEightCardOne p {
+        font-size: 16px;
+        font-family: "Open Sans", sans-serif;
+        width: fit-content;
+        line-height: 2;
+        width: fit-content;
+    }
+
+    .scEightCardOne {
+        width: fit-content;
+        height: fit-content;
+        display: flex;
+        flex-direction: column;
+        gap: 35px;
+        padding: 20px;
+    }
+
+
+    .scEightCardTwo .txtDivv {
+        width: fit-content;
+        height: fit-content;
+        background-color: #a8f8d1;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: start;
+        gap: 20px;
+        padding-left: 15px;
+    }
+
+    .txtDivv p {
+        font-size: 16px;
+        font-family: "Open Sans", sans-serif;
+        font-weight: 700;
+        line-height: 1.6;
+        width: fit-content;
+    }
+
+    .sectionNine {
+        height: 460px;
+        background-image: url(img/footer.jpg);
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .scNineText {
+        width: fit-content;
+        height: 308px;
+        background-color: white;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        gap: 30px;
+        padding: 30px;
+    }
+
+    .scNineText h2 {
+        font-size: 35px;
+        width: 334px;
+        text-align: center;
+    }
+
+    .scNineText h3 {
+        font-size: 30px;
+        font-family: Roboto, sans-serif;
+        color: #16ba6a;
+    }
+}
